@@ -14,6 +14,20 @@ http://scripts.sil.org/OFL
 
 @font-face {
 	font-family: 'Pretendard';
+	font-weight: 600;
+	font-display: swap;
+	src: url('Pretendard-SemiBold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 500;
+	font-display: swap;
+	src: url('Pretendard-Medium.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Pretendard';
 	font-weight: 400;
 	font-display: swap;
 	src: url('Pretendard-Regular.woff') format('woff');
@@ -39,6 +53,22 @@ http://scripts.sil.org/OFL
 	font-weight: 700;
 	font-display: swap;
 	src: url('Pretendard-Bold.woff') format('woff');
+	unicode-range: U+0041-005A, U+0061-007A, U+00C0-00FF;
+}
+
+@font-face {
+	font-family: 'Pretendard-EN';
+	font-weight: 600;
+	font-display: swap;
+	src: url('Pretendard-SemiBold.woff') format('woff');
+	unicode-range: U+0041-005A, U+0061-007A, U+00C0-00FF;
+}
+
+@font-face {
+	font-family: 'Pretendard-EN';
+	font-weight: 500;
+	font-display: swap;
+	src: url('Pretendard-Medium.woff') format('woff');
 	unicode-range: U+0041-005A, U+0061-007A, U+00C0-00FF;
 }
 
@@ -77,6 +107,22 @@ http://scripts.sil.org/OFL
 
 @font-face {
 	font-family: 'Pretendard-NUM';
+	font-weight: 600;
+	font-display: swap;
+	src: url('Pretendard-SemiBold.woff') format('woff');
+	unicode-range: U+0030-0039;
+}
+
+@font-face {
+	font-family: 'Pretendard-NUM';
+	font-weight: 500;
+	font-display: swap;
+	src: url('Pretendard-Medium.woff') format('woff');
+	unicode-range: U+0030-0039;
+}
+
+@font-face {
+	font-family: 'Pretendard-NUM';
 	font-weight: 400;
 	font-display: swap;
 	src: url('Pretendard-Regular.woff') format('woff');
@@ -105,6 +151,22 @@ http://scripts.sil.org/OFL
 	font-weight: 700;
 	font-display: swap;
 	src: url('Pretendard-Bold.woff') format('woff');
+	unicode-range: U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+
+@font-face {
+	font-family: 'Pretendard-CHAR';
+	font-weight: 600;
+	font-display: swap;
+	src: url('Pretendard-SemiBold.woff') format('woff');
+	unicode-range: U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+
+@font-face {
+	font-family: 'Pretendard-CHAR';
+	font-weight: 500;
+	font-display: swap;
+	src: url('Pretendard-Medium.woff') format('woff');
 	unicode-range: U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
 }
 
